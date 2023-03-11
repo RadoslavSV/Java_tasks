@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>4563960122019991</string>
+    </void>
+    <void property="token">
+     <string>9655102607579991</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>6011111111111117</string>
+    </void>
+    <void property="token">
+     <string>8267858997581117</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>4024007177224507</string>
+    </void>
+    <void property="token">
+     <string>0865410454474507</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>5506900490000444</string>
+    </void>
+    <void property="token">
+     <string>2379148853420444</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>3530111333300000</string>
+    </void>
+    <void property="token">
+     <string>8481395174850000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="CreditCard">
+    <void property="number">
+     <string>4007702835532454</string>
+    </void>
+    <void property="token">
+     <string>2579666044252454</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

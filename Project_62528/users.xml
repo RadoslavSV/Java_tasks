@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="User">
+    <void property="password">
+     <string>12345678</string>
+    </void>
+    <void property="username">
+     <string>ivan2003</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User">
+    <void property="password">
+     <string>iamtoddh</string>
+    </void>
+    <void property="username">
+     <string>ToddHemp</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User">
+    <void property="password">
+     <string>myPassword</string>
+    </void>
+    <void property="username">
+     <string>maria123</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
