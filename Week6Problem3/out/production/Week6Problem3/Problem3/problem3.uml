@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>problem3</OriginalElement>
+  <nodes>
+    <node x="-75.7681043721993" y="-6.108634919976499">problem3.Comparable</node>
+    <node x="-75.7681043721993" y="86.14750407446837">problem3.Point</node>
+    <node x="315.36500381253984" y="208.93775146056407">problem3.BubbleSortTest</node>
+    <node x="-75.7681043721993" y="415.60134849762426">problem3.Circle</node>
+    <node x="289.86500381253984" y="54.09912794179067">problem3.BubbleSort</node>
+    <node x="289.36500381253984" y="431.42680897020637">problem3.Cylinder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="problem3.Circle" target="problem3.Point" relationship="GENERALIZATION">
+      <point x="-102.5" y="-73.7938444231558" />
+      <point x="26.731895627800697" y="446.80750407446845" />
+      <point x="26.731895627800697" y="354.6475040744684" />
+      <point x="102.5" y="130.5" />
+    </edge>
+    <edge source="problem3.Point" target="problem3.Comparable" relationship="REALIZATION">
+      <point x="0.0" y="-138.0" />
+      <point x="26.731895627800697" y="20.8913650800235" />
+      <point x="-102.5" y="0.0" />
+    </edge>
+    <edge source="problem3.Cylinder" target="problem3.Circle" relationship="GENERALIZATION">
+      <point x="60.73057662733004" y="-105.0" />
+      <point x="452.5955804398699" y="564.0340787339153" />
+      <point x="26.731895627800697" y="564.0340787339153" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8333333333333335" showDependencies="false" x="312.1999999999998" y="413.52" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
