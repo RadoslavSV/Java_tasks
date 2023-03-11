@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.199951171875" minWidth="10.0" prefWidth="135.79996337890626" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="335.20001220703125" minWidth="10.0" prefWidth="268.60003662109375" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="185.2000122070312" minWidth="10.0" prefWidth="173.2000122070312" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="55.400010108947754" minHeight="0.0" prefHeight="44.8" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="35.2" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="88.0" minHeight="4.800012969970709" prefHeight="35.2" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="35.2" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="35.2" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="90.0" text="Product Details" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Description" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Category" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Price" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToList" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickAddToList" prefHeight="25.0" prefWidth="120.0" text="Add to List" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Button>
+            <TextField fx:id="descriptionField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#writeDescriptionField" prefHeight="25.0" prefWidth="235.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <TextField fx:id="categoryField" maxHeight="-Infinity" maxWidth="-Infinity" onAction="#writeCategoryField" prefHeight="25.0" prefWidth="235.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <TextField fx:id="priceField" maxHeight="-Infinity" maxWidth="-Infinity" onAction="#writePriceField" prefHeight="25.0" prefWidth="235.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="sortProducts" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickSortProducts" prefHeight="25.0" prefWidth="165.0" text="Sort Products" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="showProducts" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickShowProducts" prefHeight="25.0" prefWidth="165.0" text="Show Products" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="averagePrice" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickAveragePrice" prefHeight="25.0" prefWidth="165.0" text="Average Price" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="groupByCategory" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickGroupByCategory" prefHeight="25.0" prefWidth="165.0" text="Group By Category" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="14.0" left="14.0" right="14.0" top="14.0" />
+         </padding>
+      </GridPane>
+      <TextArea fx:id="dispField" layoutX="13.0" layoutY="193.0" prefHeight="193.0" prefWidth="571.0" />
+   </children>
+   <padding>
+      <Insets bottom="14.0" left="14.0" right="14.0" top="14.0" />
+   </padding>
+</AnchorPane>
