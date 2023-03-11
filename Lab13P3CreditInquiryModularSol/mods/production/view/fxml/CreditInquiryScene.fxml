@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="335.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.CreditInquirySceneController">
+   <children>
+      <VBox prefHeight="277.0" prefWidth="464.0" spacing="8.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu fx:id="mnuOptions" mnemonicParsing="false" text="Options">
+                     <items>
+                        <MenuItem fx:id="mnuZeroBalance" mnemonicParsing="false" onAction="#mnuZeroBalanceOnAction" text="Zero Balance" />
+                        <MenuItem fx:id="mnuCreditBalance" mnemonicParsing="false" onAction="#mnuCreditBalanceOnAction" text="Credit Balance" />
+                        <MenuItem fx:id="mnuDebitBalance" mnemonicParsing="false" onAction="#mnuDebitBalanceOnAction" text="Debit Balance" />
+                        <MenuItem fx:id="mnuExit" mnemonicParsing="false" onAction="#mnuExitOnAction" text="Exit" />
+                     </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <TextArea fx:id="txaOutput" prefHeight="289.0" prefWidth="474.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
