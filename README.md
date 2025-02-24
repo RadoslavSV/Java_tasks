@@ -1,1 +1,1 @@
-Optional FMI course "Object-Oriented Programming with Java"
+Faculty of Mathematics and Informatics course "Object-Oriented Programming with Java"
